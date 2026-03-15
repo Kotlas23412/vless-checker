@@ -303,7 +303,7 @@
 
     statsEl.textContent = 'Рабочих: ' + d.total_working + ' из ' + d.total;
 
-    if (d.top5 && d.top5.length > 1) {
+    if (d.top5 && d.top5.length >= 1) {
       top5El.innerHTML = '<h3>ТОП-5 быстрых:</h3>' +
         d.top5.map((k, i) =>
           '<div class="top5-item">' +
