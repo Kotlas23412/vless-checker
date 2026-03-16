@@ -352,7 +352,7 @@
         tabBtn.style.display = '';
       } else {
         const clone = tabBtn.cloneNode(true);
-        clone.disabled = false;
+        clone.disabled = true;
         clone.style.display = '';
         emptyTabs.push(clone);
         tabBtn.disabled = true;
