@@ -24,6 +24,8 @@ COUNTRIES = {
     "poland":      ["poland"],
 }
 
+COUNTRIES_ALL_KEYWORDS = [kw for kws in COUNTRIES.values() for kw in kws]
+
 
 def fetch_keys(url):
     resp = requests.get(url, timeout=15)
@@ -36,6 +38,8 @@ def filter_keys(keys, mode):
     if mode in COUNTRIES:
         keywords = COUNTRIES[mode]
         return [k for k in keys if any(kw in k.lower() for kw in keywords)]
+    if mode == "other":
+        return [k for k in keys if not any(kw in k.lower() for kw in COUNTRIES_ALL_KEYWORDS) and "russia" not in k.lower()]
     if mode == "white":
         return [k for k in keys if "russia" not in k.lower()]
     if mode == "russia":
@@ -119,7 +123,7 @@ def main():
         results[country] = check_mode(filtered)
         print(f"[{country}] Рабочих: {results[country]['total_working']}/{results[country]['total']}")
 
-    for mode in ("white", "russia"):
+    for mode in ("other", "white", "russia"):
         filtered = filter_keys(white_keys, mode)
         print(f"[{mode}] {len(filtered)} ключей, проверяем...")
         results[mode] = check_mode(filtered)
