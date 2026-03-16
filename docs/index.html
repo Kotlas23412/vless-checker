@@ -292,7 +292,14 @@
   }
 
   function renderAll() {
-    document.getElementById('updated').textContent = 'Обновлено: ' + (data.updated_at || '—');
+    const utcStr = data.updated_at;
+    let displayTime = utcStr || '—';
+    if (utcStr) {
+      const d = new Date(utcStr.replace(' ', 'T'));
+      const msk = new Date(d.getTime() + 3 * 60 * 60 * 1000);
+      displayTime = msk.toISOString().slice(0, 16).replace('T', ' ') + ' МСК';
+    }
+    document.getElementById('updated').textContent = 'Обновлено: ' + displayTime;
     MODES.forEach(m => {
       if (data[m.key]) render(m.key);
       const tabBtn = document.querySelector('[onclick="switchMode(\'' + m.key + '\')"]');
