@@ -365,7 +365,7 @@
     const label = document.getElementById('collapsed-label');
     collapsed.innerHTML = '';
     if (emptyTabs.length > 0) {
-      emptyTabs.forEach(btn => { btn.disabled = false; collapsed.appendChild(btn); });
+      emptyTabs.forEach(btn => { collapsed.appendChild(btn); });
       label.textContent = 'Нет ключей: ' + emptyTabs.length;
       toggle.style.display = 'flex';
     } else {
