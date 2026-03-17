@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VLESS Key Checker — бесплатные рабочие VLESS-ключи для России</title>
 
   <!-- SEO -->
-  <meta name="description" content="Автоматически обновляемые бесплатные VLESS-ключи для обхода блокировок в России. Проверенные серверы Эстония, Финляндия, Германия, Швеция, Нидерланды. Совместимо с v2rayTUN, Hiddify, Streisand." />
-  <meta name="keywords" content="VLESS ключи, бесплатный VPN Россия, обход блокировок, VLESS бесплатно, v2ray ключи, Hiddify ключи, VPN для России 2025, VLESS checker" />
+  <meta name="description"
+    content="Автоматически обновляемые бесплатные VLESS-ключи для обхода блокировок в России. Проверенные серверы Эстония, Финляндия, Германия, Швеция, Нидерланды. Совместимо с v2rayTUN, Hiddify, Streisand." />
+  <meta name="keywords"
+    content="VLESS ключи, бесплатный VPN Россия, обход блокировок, VLESS бесплатно, v2ray ключи, Hiddify ключи, VPN для России 2025, VLESS checker" />
   <meta name="author" content="tiagorrg" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://tiagorrg.github.io/vless-checker/" />
 
   <!-- Open Graph (для превью в Telegram, VK, соцсетях) -->
   <meta property="og:title" content="VLESS Key Checker — бесплатные рабочие ключи" />
-  <meta property="og:description" content="Автоматически обновляемые VLESS-ключи для обхода блокировок. Проверяются каждые 30 минут." />
+  <meta property="og:description"
+    content="Автоматически обновляемые VLESS-ключи для обхода блокировок. Проверяются каждые 30 минут." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tiagorrg.github.io/vless-checker/" />
 
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       background: #0f0f13;
       color: #e0e0e0;
@@ -28,23 +38,27 @@
       min-height: 100vh;
       padding: 24px 16px;
     }
+
     h1 {
       text-align: center;
       font-size: 1.6rem;
       color: #fff;
       margin-bottom: 8px;
     }
+
     .subtitle {
       text-align: center;
       color: #888;
       font-size: 0.85rem;
       margin-bottom: 20px;
     }
+
     .github-link {
       display: flex;
       justify-content: center;
       margin-bottom: 20px;
     }
+
     .github-link a {
       display: flex;
       align-items: center;
@@ -57,7 +71,12 @@
       padding: 5px 14px;
       transition: all 0.2s;
     }
-    .github-link a:hover { color: #aaa; border-color: #444; }
+
+    .github-link a:hover {
+      color: #aaa;
+      border-color: #444;
+    }
+
     .guide {
       max-width: 640px;
       margin: 0 auto 24px;
@@ -66,10 +85,30 @@
       border-radius: 14px;
       padding: 16px 20px;
     }
-    .guide h3 { font-size: 0.8rem; color: #555; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
-    .guide ol { padding-left: 18px; }
-    .guide li { font-size: 0.82rem; color: #777; margin-bottom: 6px; line-height: 1.5; }
-    .guide li span { color: #94a3b8; }
+
+    .guide h3 {
+      font-size: 0.8rem;
+      color: #555;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .guide ol {
+      padding-left: 18px;
+    }
+
+    .guide li {
+      font-size: 0.82rem;
+      color: #777;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .guide li span {
+      color: #94a3b8;
+    }
+
     .section-label {
       text-align: center;
       font-size: 0.72rem;
@@ -78,6 +117,7 @@
       letter-spacing: 0.08em;
       margin-bottom: 8px;
     }
+
     .tabs {
       display: flex;
       justify-content: center;
@@ -85,6 +125,7 @@
       margin-bottom: 8px;
       flex-wrap: wrap;
     }
+
     .tab {
       padding: 7px 16px;
       border-radius: 20px;
@@ -95,15 +136,30 @@
       font-size: 0.85rem;
       transition: all 0.2s;
     }
-    .tab:hover:not(:disabled) { border-color: #555; color: #ddd; }
-    .tab.active { background: #4f46e5; border-color: #4f46e5; color: #fff; }
-    .tab:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    .tab:hover:not(:disabled) {
+      border-color: #555;
+      color: #ddd;
+    }
+
+    .tab.active {
+      background: #4f46e5;
+      border-color: #4f46e5;
+      color: #fff;
+    }
+
+    .tab:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
     .tabs-divider {
       max-width: 640px;
       margin: 16px auto;
       border: none;
       border-top: 1px solid #2a2a35;
     }
+
     .card {
       max-width: 640px;
       margin: 0 auto 20px;
@@ -112,7 +168,13 @@
       padding: 22px;
       border: 1px solid #2a2a35;
     }
-    .card h2 { font-size: 1rem; color: #aaa; margin-bottom: 16px; }
+
+    .card h2 {
+      font-size: 1rem;
+      color: #aaa;
+      margin-bottom: 16px;
+    }
+
     .key-box {
       background: #0f0f13;
       border: 1px solid #2a2a35;
@@ -127,7 +189,13 @@
       display: flex;
       align-items: center;
     }
-    .key-box.empty { color: #555; font-family: sans-serif; font-size: 0.85rem; }
+
+    .key-box.empty {
+      color: #555;
+      font-family: sans-serif;
+      font-size: 0.85rem;
+    }
+
     .copy-btn {
       margin-top: 12px;
       width: 100%;
@@ -140,10 +208,27 @@
       cursor: pointer;
       transition: background 0.2s;
     }
-    .copy-btn:hover { background: #4338ca; }
-    .copy-btn:disabled { background: #2a2a35; color: #555; cursor: default; }
-    .top5 { margin-top: 16px; }
-    .top5 h3 { font-size: 0.8rem; color: #666; margin-bottom: 8px; }
+
+    .copy-btn:hover {
+      background: #4338ca;
+    }
+
+    .copy-btn:disabled {
+      background: #2a2a35;
+      color: #555;
+      cursor: default;
+    }
+
+    .top5 {
+      margin-top: 16px;
+    }
+
+    .top5 h3 {
+      font-size: 0.8rem;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
     .top5-item {
       display: flex;
       justify-content: space-between;
@@ -154,8 +239,28 @@
       margin-bottom: 5px;
       font-size: 0.8rem;
     }
-    .top5-item .host { color: #94a3b8; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .top5-item .latency { color: #4ade80; margin-left: 10px; flex-shrink: 0; }
+
+    .top5-item .host {
+      color: #94a3b8;
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .top5-item .latency {
+      color: #4ade80;
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+
+    .top5-item .uptime {
+      color: #666;
+      margin-left: 8px;
+      font-size: 0.72rem;
+      flex-shrink: 0;
+    }
+
     .top5-item .copy-small {
       margin-left: 8px;
       background: none;
@@ -167,8 +272,19 @@
       font-size: 0.75rem;
       flex-shrink: 0;
     }
-    .top5-item .copy-small:hover { border-color: #555; color: #ccc; }
-    .stats { text-align: center; color: #555; font-size: 0.8rem; margin-top: 10px; }
+
+    .top5-item .copy-small:hover {
+      border-color: #555;
+      color: #ccc;
+    }
+
+    .stats {
+      text-align: center;
+      color: #555;
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+
     .refresh-btn {
       display: block;
       margin: 0 auto 20px;
@@ -181,10 +297,16 @@
       cursor: pointer;
       transition: all 0.2s;
     }
-    .refresh-btn:hover { border-color: #555; color: #ddd; }
+
+    .refresh-btn:hover {
+      border-color: #555;
+      color: #ddd;
+    }
+
     .spinner {
       display: inline-block;
-      width: 14px; height: 14px;
+      width: 14px;
+      height: 14px;
       border: 2px solid #333;
       border-top-color: #4f46e5;
       border-radius: 50%;
@@ -192,7 +314,13 @@
       vertical-align: middle;
       margin-right: 6px;
     }
-    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
     .collapsed-toggle {
       display: none;
       justify-content: center;
@@ -206,12 +334,20 @@
       border: none;
       padding: 4px 10px;
     }
-    .collapsed-toggle:hover { color: #888; }
+
+    .collapsed-toggle:hover {
+      color: #888;
+    }
+
     .collapsed-toggle svg {
       transition: transform 0.25s;
       flex-shrink: 0;
     }
-    .collapsed-toggle.open svg { transform: rotate(180deg); }
+
+    .collapsed-toggle.open svg {
+      transform: rotate(180deg);
+    }
+
     .tabs-collapsed {
       display: none;
       justify-content: center;
@@ -219,7 +355,11 @@
       flex-wrap: wrap;
       margin-bottom: 8px;
     }
-    .tabs-collapsed.open { display: flex; }
+
+    .tabs-collapsed.open {
+      display: flex;
+    }
+
     .badge-new {
       display: inline-block;
       background: #ca8a04;
@@ -234,219 +374,234 @@
     }
   </style>
 </head>
+
 <body>
 
-<h1>VLESS Key Checker</h1>
-<p class="subtitle" id="updated">Загружаем данные...</p>
+  <h1>VLESS Key Checker</h1>
+  <p class="subtitle" id="updated">Загружаем данные...</p>
 
-<div class="github-link">
-  <a href="https://github.com/tiagorrg/vless-checker" target="_blank">
-    <svg height="14" viewBox="0 0 16 16" fill="#666" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-    tiagorrg/vless-checker
-  </a>
-</div>
+  <div class="github-link">
+    <a href="https://github.com/tiagorrg/vless-checker" target="_blank">
+      <svg height="14" viewBox="0 0 16 16" fill="#666" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+      </svg>
+      tiagorrg/vless-checker
+    </a>
+  </div>
 
-<div class="guide">
-  <h3>Как пользоваться</h3>
-  <ol>
-    <li>Выбери страну для <span>обычного VPN</span> — рекомендуются Прибалтика, Финляндия, Германия, Швеция, Нидерланды, Польша</li>
-    <li>Или выбери режим <span>Белые списки</span> / <span>Россия (Москва)</span> для туннелирования только заблокированных сайтов</li>
-    <li>Нажми <span>Копировать</span> и вставь ключ в приложение (Hiddify, v2rayTUN, Streisand)</li>
-    <li>Ключи обновляются автоматически <span>каждые 30 минут</span></li>
-  </ol>
-</div>
+  <div class="guide">
+    <h3>Как пользоваться</h3>
+    <ol>
+      <li>Выбери страну для <span>обычного VPN</span> — рекомендуются Прибалтика, Финляндия, Германия, Швеция,
+        Нидерланды, Польша</li>
+      <li>Или выбери режим <span>Белые списки</span> / <span>Россия (Москва)</span> для туннелирования только
+        заблокированных сайтов</li>
+      <li>Нажми <span>Копировать</span> и вставь ключ в приложение (Hiddify, v2rayTUN, Streisand)</li>
+      <li>Ключи обновляются автоматически <span>каждые 30 минут</span></li>
+    </ol>
+  </div>
 
-<p class="section-label">Обычный VPN — выбери страну</p>
-<div class="tabs" id="tabs-countries">
-  <button class="tab active" onclick="switchMode('baltics')">🇱🇹🇪🇪🇱🇻 Прибалтика</button>
-  <button class="tab" onclick="switchMode('finland')">🇫🇮 Финляндия</button>
-  <button class="tab" onclick="switchMode('germany')">🇩🇪 Германия</button>
-  <button class="tab" onclick="switchMode('sweden')">🇸🇪 Швеция</button>
-  <button class="tab" onclick="switchMode('netherlands')">🇳🇱 Нидерланды</button>
-  <button class="tab" onclick="switchMode('poland')">🇵🇱 Польша <span class="badge-new">NEW</span></button>
-  <button class="tab" onclick="switchMode('other')">🌍 Остальные <span class="badge-new">NEW</span></button>
-</div>
+  <p class="section-label">Обычный VPN — выбери страну</p>
+  <div class="tabs" id="tabs-countries">
+    <button class="tab active" onclick="switchMode('baltics')">🇱🇹🇪🇪🇱🇻 Прибалтика</button>
+    <button class="tab" onclick="switchMode('finland')">🇫🇮 Финляндия</button>
+    <button class="tab" onclick="switchMode('germany')">🇩🇪 Германия</button>
+    <button class="tab" onclick="switchMode('sweden')">🇸🇪 Швеция</button>
+    <button class="tab" onclick="switchMode('netherlands')">🇳🇱 Нидерланды</button>
+    <button class="tab" onclick="switchMode('poland')">🇵🇱 Польша <span class="badge-new">NEW</span></button>
+    <button class="tab" onclick="switchMode('other')">🌍 Остальные <span class="badge-new">NEW</span></button>
+  </div>
 
-<button class="collapsed-toggle" id="collapsed-toggle" onclick="toggleCollapsed()">
-  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2 4l4 4 4-4" stroke="#666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-  <span id="collapsed-label">Нет ключей: ...</span>
-</button>
-<div class="tabs-collapsed" id="tabs-collapsed"></div>
+  <button class="collapsed-toggle" id="collapsed-toggle" onclick="toggleCollapsed()">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 4l4 4 4-4" stroke="#666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <span id="collapsed-label">Нет ключей: ...</span>
+  </button>
+  <div class="tabs-collapsed" id="tabs-collapsed"></div>
 
-<hr class="tabs-divider" />
+  <hr class="tabs-divider" />
 
-<p class="section-label">Белые списки</p>
-<div class="tabs" id="tabs-white">
-  <button class="tab" onclick="switchMode('white')">🌐 Белые списки</button>
-  <button class="tab" onclick="switchMode('russia')">🇷🇺 Россия (Москва)</button>
-</div>
+  <p class="section-label">Белые списки</p>
+  <div class="tabs" id="tabs-white">
+    <button class="tab" onclick="switchMode('white')">🌐 Белые списки</button>
+    <button class="tab" onclick="switchMode('russia')">🇷🇺 Россия (Москва)</button>
+  </div>
 
-<button class="refresh-btn" onclick="loadData()" style="margin-top:20px">Обновить</button>
+  <button class="refresh-btn" onclick="loadData()" style="margin-top:20px">Обновить</button>
 
-<div id="cards"></div>
+  <div id="cards"></div>
 
-<script>
-  const KEYS_URL = 'keys.json';
-  let data = null;
+  <script>
+    const KEYS_URL = 'keys.json';
+    let data = null;
 
-  const MODES = [
-    { key: 'baltics',     label: '🇱🇹🇪🇪🇱🇻 Прибалтика' },
-    { key: 'finland',     label: '🇫🇮 Финляндия' },
-    { key: 'germany',     label: '🇩🇪 Германия' },
-    { key: 'sweden',      label: '🇸🇪 Швеция' },
-    { key: 'netherlands', label: '🇳🇱 Нидерланды' },
-    { key: 'poland',      label: '🇵🇱 Польша' },
-    { key: 'other',       label: '🌍 Остальные' },
-    { key: 'white',       label: '🌐 Белые списки' },
-    { key: 'russia',      label: '🇷🇺 Россия (Москва)' },
-  ];
+    const MODES = [
+      { key: 'baltics', label: '🇱🇹🇪🇪🇱🇻 Прибалтика' },
+      { key: 'finland', label: '🇫🇮 Финляндия' },
+      { key: 'germany', label: '🇩🇪 Германия' },
+      { key: 'sweden', label: '🇸🇪 Швеция' },
+      { key: 'netherlands', label: '🇳🇱 Нидерланды' },
+      { key: 'poland', label: '🇵🇱 Польша' },
+      { key: 'other', label: '🌍 Остальные' },
+      { key: 'white', label: '🌐 Белые списки' },
+      { key: 'russia', label: '🇷🇺 Россия (Москва)' },
+    ];
 
-  let currentMode = 'baltics';
+    let currentMode = 'baltics';
 
-  function buildCards() {
-    const container = document.getElementById('cards');
-    container.innerHTML = MODES.map(m =>
-      '<div class="card" id="card-' + m.key + '" style="display:none">' +
-      '<h2>Лучший ключ — ' + m.label + '</h2>' +
-      '<div class="key-box empty" id="key-' + m.key + '">Загрузка...</div>' +
-      '<button class="copy-btn" id="btn-' + m.key + '" disabled onclick="copyKey(\'' + m.key + '\')">Копировать</button>' +
-      '<div class="top5" id="top5-' + m.key + '"></div>' +
-      '<div class="stats" id="stats-' + m.key + '"></div>' +
-      '</div>'
-    ).join('');
-    document.getElementById('card-' + currentMode).style.display = 'block';
-  }
-
-  function switchMode(mode) {
-    currentMode = mode;
-    document.querySelectorAll('.tab').forEach(t => {
-      const onclick = t.getAttribute('onclick');
-      t.classList.toggle('active', onclick === "switchMode('" + mode + "')");
-    });
-    MODES.forEach(m => {
-      document.getElementById('card-' + m.key).style.display = m.key === mode ? 'block' : 'none';
-    });
-  }
-
-  async function loadData() {
-    document.getElementById('updated').innerHTML = '<span class="spinner"></span>Загружаем...';
-    try {
-      const resp = await fetch(KEYS_URL + '?t=' + Date.now());
-      if (!resp.ok) throw new Error('Ошибка загрузки');
-      data = await resp.json();
-      renderAll();
-    } catch(e) {
-      document.getElementById('updated').textContent = 'Ошибка загрузки данных';
+    function buildCards() {
+      const container = document.getElementById('cards');
+      container.innerHTML = MODES.map(m =>
+        '<div class="card" id="card-' + m.key + '" style="display:none">' +
+        '<h2>Лучший ключ — ' + m.label + '</h2>' +
+        '<div class="key-box empty" id="key-' + m.key + '">Загрузка...</div>' +
+        '<button class="copy-btn" id="btn-' + m.key + '" disabled onclick="copyKey(\'' + m.key + '\')">Копировать</button>' +
+        '<div class="top5" id="top5-' + m.key + '"></div>' +
+        '<div class="stats" id="stats-' + m.key + '"></div>' +
+        '</div>'
+      ).join('');
+      document.getElementById('card-' + currentMode).style.display = 'block';
     }
-  }
 
-  function renderAll() {
-    const utcStr = data.updated_at;
-    let displayTime = utcStr || '—';
-    if (utcStr) {
+    function switchMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.tab').forEach(t => {
+        const onclick = t.getAttribute('onclick');
+        t.classList.toggle('active', onclick === "switchMode('" + mode + "')");
+      });
+      MODES.forEach(m => {
+        document.getElementById('card-' + m.key).style.display = m.key === mode ? 'block' : 'none';
+      });
+    }
+
+    async function loadData() {
+      document.getElementById('updated').innerHTML = '<span class="spinner"></span>Загружаем...';
       try {
-        const d = new Date(utcStr.replace(' ', 'T').replace(' UTC', 'Z'));
-        if (!isNaN(d)) {
-          const msk = new Date(d.getTime() + 3 * 60 * 60 * 1000);
-          displayTime = msk.toISOString().slice(0, 16).replace('T', ' ') + ' МСК';
-        }
-      } catch(e) {}
-    }
-    document.getElementById('updated').textContent = 'Обновлено: ' + displayTime;
-    const emptyTabs = [];
-    MODES.forEach(m => {
-      if (data[m.key]) render(m.key);
-      const hasKeys = data[m.key] && data[m.key].total_working > 0;
-      const tabBtn = document.querySelector('#tabs-countries [onclick="switchMode(\'' + m.key + '\')"], #tabs-white [onclick="switchMode(\'' + m.key + '\')"]');
-      if (!tabBtn) return;
-      if (hasKeys) {
-        tabBtn.disabled = false;
-        tabBtn.style.display = '';
-      } else {
-        const clone = tabBtn.cloneNode(true);
-        clone.disabled = true;
-        clone.style.display = '';
-        emptyTabs.push(clone);
-        tabBtn.disabled = true;
-        tabBtn.style.display = 'none';
+        const resp = await fetch(KEYS_URL + '?t=' + Date.now());
+        if (!resp.ok) throw new Error('Ошибка загрузки');
+        data = await resp.json();
+        renderAll();
+      } catch (e) {
+        document.getElementById('updated').textContent = 'Ошибка загрузки данных';
       }
-    });
-
-    const collapsed = document.getElementById('tabs-collapsed');
-    const toggle = document.getElementById('collapsed-toggle');
-    const label = document.getElementById('collapsed-label');
-    collapsed.innerHTML = '';
-    if (emptyTabs.length > 0) {
-      emptyTabs.forEach(btn => { collapsed.appendChild(btn); });
-      label.textContent = 'Нет ключей: ' + emptyTabs.length;
-      toggle.style.display = 'flex';
-    } else {
-      toggle.style.display = 'none';
-    }
-  }
-
-  function toggleCollapsed() {
-    const toggle = document.getElementById('collapsed-toggle');
-    const collapsed = document.getElementById('tabs-collapsed');
-    toggle.classList.toggle('open');
-    collapsed.classList.toggle('open');
-  }
-
-  function render(mode) {
-    const d = data[mode];
-    if (!d) return;
-    const keyEl = document.getElementById('key-' + mode);
-    const btnEl = document.getElementById('btn-' + mode);
-    const top5El = document.getElementById('top5-' + mode);
-    const statsEl = document.getElementById('stats-' + mode);
-
-    if (d.best) {
-      keyEl.textContent = d.best;
-      keyEl.classList.remove('empty');
-      btnEl.disabled = false;
-    } else {
-      keyEl.textContent = 'Рабочих ключей не найдено. Проверьте позже.';
-      keyEl.classList.add('empty');
-      btnEl.disabled = true;
     }
 
-    statsEl.textContent = 'Рабочих: ' + d.total_working + ' из ' + d.total;
+    function renderAll() {
+      const utcStr = data.updated_at;
+      let displayTime = utcStr || '—';
+      if (utcStr) {
+        try {
+          const d = new Date(utcStr.replace(' ', 'T').replace(' UTC', 'Z'));
+          if (!isNaN(d)) {
+            const msk = new Date(d.getTime() + 3 * 60 * 60 * 1000);
+            displayTime = msk.toISOString().slice(0, 16).replace('T', ' ') + ' МСК';
+          }
+        } catch (e) { }
+      }
+      document.getElementById('updated').textContent = 'Обновлено: ' + displayTime;
+      const emptyTabs = [];
+      MODES.forEach(m => {
+        if (data[m.key]) render(m.key);
+        const hasKeys = data[m.key] && data[m.key].total_working > 0;
+        const tabBtn = document.querySelector('#tabs-countries [onclick="switchMode(\'' + m.key + '\')"], #tabs-white [onclick="switchMode(\'' + m.key + '\')"]');
+        if (!tabBtn) return;
+        if (hasKeys) {
+          tabBtn.disabled = false;
+          tabBtn.style.display = '';
+        } else {
+          const clone = tabBtn.cloneNode(true);
+          clone.disabled = true;
+          clone.style.display = '';
+          emptyTabs.push(clone);
+          tabBtn.disabled = true;
+          tabBtn.style.display = 'none';
+        }
+      });
 
-    if (d.top5 && d.top5.length >= 1) {
-      top5El.innerHTML = '<h3>ТОП-5 быстрых:</h3>' +
-        d.top5.map((k, i) =>
-          '<div class="top5-item">' +
-          '<span class="host">' + (i+1) + '. ' + k.host + ':' + k.port + '</span>' +
-          '<span class="latency">' + k.latency_ms + ' мс</span>' +
-          '<button class="copy-small" onclick="copyText(\'' + encodeKey(k.key) + '\', this)">копировать</button>' +
-          '</div>'
-        ).join('');
-    } else {
-      top5El.innerHTML = '';
+      const collapsed = document.getElementById('tabs-collapsed');
+      const toggle = document.getElementById('collapsed-toggle');
+      const label = document.getElementById('collapsed-label');
+      collapsed.innerHTML = '';
+      if (emptyTabs.length > 0) {
+        emptyTabs.forEach(btn => { collapsed.appendChild(btn); });
+        label.textContent = 'Нет ключей: ' + emptyTabs.length;
+        toggle.style.display = 'flex';
+      } else {
+        toggle.style.display = 'none';
+      }
     }
-  }
 
-  function encodeKey(key) {
-    return key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-  }
+    function toggleCollapsed() {
+      const toggle = document.getElementById('collapsed-toggle');
+      const collapsed = document.getElementById('tabs-collapsed');
+      toggle.classList.toggle('open');
+      collapsed.classList.toggle('open');
+    }
 
-  function copyKey(mode) {
-    const key = document.getElementById('key-' + mode).textContent;
-    copyText(key, document.getElementById('btn-' + mode));
-  }
+    function render(mode) {
+      const d = data[mode];
+      if (!d) return;
+      const keyEl = document.getElementById('key-' + mode);
+      const btnEl = document.getElementById('btn-' + mode);
+      const top5El = document.getElementById('top5-' + mode);
+      const statsEl = document.getElementById('stats-' + mode);
 
-  function copyText(text, btn) {
-    navigator.clipboard.writeText(text).then(() => {
-      const orig = btn.textContent;
-      btn.textContent = 'Скопировано!';
-      setTimeout(() => btn.textContent = orig, 1500);
-    });
-  }
+      if (d.best) {
+        keyEl.textContent = d.best;
+        keyEl.classList.remove('empty');
+        btnEl.disabled = false;
+      } else {
+        keyEl.textContent = 'Рабочих ключей не найдено. Проверьте позже.';
+        keyEl.classList.add('empty');
+        btnEl.disabled = true;
+      }
 
-  buildCards();
-  loadData();
-</script>
+      statsEl.textContent = 'Рабочих: ' + d.total_working + ' из ' + d.total;
+
+      if (d.top5 && d.top5.length >= 1) {
+        top5El.innerHTML = '<h3>ТОП-5 быстрых:</h3>' +
+          d.top5.map((k, i) =>
+            '<div class="top5-item">' +
+            '<span class="host">' + (i + 1) + '. ' + k.host + ':' + k.port + '</span>' +
+            '<span class="latency">' + k.latency_ms + ' мс</span>' +
+            (k.first_seen ? '<span class="uptime">в сети ' + formatUptime(k.first_seen) + '</span>' : '') +
+            '<button class="copy-small" onclick="copyText(\'' + encodeKey(k.key) + '\', this)">копировать</button>' +
+            '</div>'
+          ).join('');
+      } else {
+        top5El.innerHTML = '';
+      }
+    }
+
+    function formatUptime(firstSeen) {
+      const diff = Math.floor((Date.now() - new Date(firstSeen)) / 1000);
+      if (diff < 3600) return Math.floor(diff / 60) + ' мин';
+      if (diff < 86400) return Math.floor(diff / 3600) + ' ч';
+      return Math.floor(diff / 86400) + ' д';
+    }
+
+    function encodeKey(key) {
+      return key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    }
+
+    function copyKey(mode) {
+      const key = document.getElementById('key-' + mode).textContent;
+      copyText(key, document.getElementById('btn-' + mode));
+    }
+
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = 'Скопировано!';
+        setTimeout(() => btn.textContent = orig, 1500);
+      });
+    }
+
+    buildCards();
+    loadData();
+  </script>
 </body>
+
 </html>

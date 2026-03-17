@@ -79,7 +79,10 @@ def test_key(key):
     return None
 
 
-def check_mode(keys):
+def check_mode(keys, old_first_seen=None):
+    if old_first_seen is None:
+        old_first_seen = {}
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     working = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(test_key, key): key for key in keys}
@@ -90,6 +93,9 @@ def check_mode(keys):
 
     working.sort(key=lambda x: x["latency_ms"])
 
+    for r in working:
+        r["first_seen"] = old_first_seen.get(r["key"], now)
+
     return {
         "best": working[0]["key"] if working else None,
         "top5": working[:5],
@@ -98,7 +104,24 @@ def check_mode(keys):
     }
 
 
+def load_old_first_seen():
+    try:
+        with open("docs/keys.json", "r", encoding="utf-8") as f:
+            old = json.load(f)
+        seen = {}
+        for mode_data in old.values():
+            if isinstance(mode_data, dict) and "top5" in mode_data:
+                for entry in mode_data["top5"]:
+                    if "key" in entry and "first_seen" in entry:
+                        seen[entry["key"]] = entry["first_seen"]
+        return seen
+    except Exception:
+        return {}
+
+
 def main():
+    old_first_seen = load_old_first_seen()
+
     print("Загружаем BLACK ключи...")
     black_keys = fetch_keys(BLACK_URL)
     print(f"Загружено {len(black_keys)} BLACK ключей")
@@ -120,13 +143,13 @@ def main():
     for country in COUNTRIES:
         filtered = filter_keys(black_keys, country)
         print(f"[{country}] {len(filtered)} ключей, проверяем...")
-        results[country] = check_mode(filtered)
+        results[country] = check_mode(filtered, old_first_seen)
         print(f"[{country}] Рабочих: {results[country]['total_working']}/{results[country]['total']}")
 
     for mode in ("other", "white", "russia"):
         filtered = filter_keys(white_keys, mode)
         print(f"[{mode}] {len(filtered)} ключей, проверяем...")
-        results[mode] = check_mode(filtered)
+        results[mode] = check_mode(filtered, old_first_seen)
         print(f"[{mode}] Рабочих: {results[mode]['total_working']}/{results[mode]['total']}")
 
     os.makedirs("docs", exist_ok=True)
