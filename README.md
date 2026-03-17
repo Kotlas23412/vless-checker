@@ -4,6 +4,9 @@
 
 🌐 **Сайт:** [tiagorrg.github.io/vless-checker](https://tiagorrg.github.io/vless-checker/)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=tiagorrg.vless-checker)
+
 ---
 
 ## Как пользоваться
@@ -61,6 +64,16 @@ source venv/bin/activate
 pip install requests
 python3 checker.py
 ```
+
+---
+
+## Поддержать автора
+
+Если проект оказался полезным — буду рад любой поддержке:
+
+| Способ | Реквизиты |
+|---|---|
+| 🟡 **ЮMoney** | [Ссылка на донат](https://yoomoney.ru/to/НОМЕР)
 
 ---
 
