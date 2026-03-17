@@ -76,7 +76,11 @@ function renderAll() {
   const emptyVpn = [];
   const emptyWhite = [];
   MODES.forEach(m => {
-    if (m.key === 'other' ? data.other_countries : data[m.key]) render(m.key);
+    try {
+      if (m.key === 'other' ? data.other_countries : data[m.key]) render(m.key);
+    } catch (e) {
+      console.error('render error for', m.key, e);
+    }
     const hasKeys = m.key === 'other'
       ? data.other_countries && Object.values(data.other_countries).some(c => c.total_working > 0)
       : data[m.key] && data[m.key].total_working > 0;
