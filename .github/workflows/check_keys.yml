@@ -2,8 +2,8 @@ name: Check VLESS Keys
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *'  # резервный триггер, ненадёжен — основной через cron-job.org
+  workflow_dispatch:  # основной триггер — вызывается внешним cron-job.org каждые 15 мин
 
 permissions:
   contents: write
