@@ -2,8 +2,12 @@ name: Check VLESS Keys
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # резервный триггер, ненадёжен — основной через cron-job.org
-  workflow_dispatch:  # основной триггер — вызывается внешним cron-job.org каждые 15 мин
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: check-keys
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -13,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -30,4 +36,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/keys.json
           git diff --cached --quiet || git commit -m "chore: update keys.json [skip ci]"
+          git pull --rebase origin main
           git push

@@ -8,7 +8,6 @@ const MODES = [
   { key: 'sweden',        label: '🇸🇪 Швеция',            section: 'vpn' },
   { key: 'netherlands',   label: '🇳🇱 Нидерланды',        section: 'vpn' },
   { key: 'poland',        label: '🇵🇱 Польша',            section: 'vpn' },
-  { key: 'other',         label: '🌍 Остальные',           section: 'vpn' },
   { key: 'w_baltics',     label: '🇱🇹🇪🇪🇱🇻 Прибалтика', section: 'white' },
   { key: 'w_finland',     label: '🇫🇮 Финляндия',         section: 'white' },
   { key: 'w_germany',     label: '🇩🇪 Германия',          section: 'white' },
@@ -19,19 +18,23 @@ const MODES = [
   { key: 'russia',        label: '🇷🇺 Россия (Москва)',    section: 'white' },
 ];
 
+let dynamicModes = [];
+
 let currentMode = null;
 
-function buildCards() {
-  const container = document.getElementById('cards');
-  container.innerHTML = MODES.map(m =>
-    '<div class="card" id="card-' + m.key + '" style="display:none">' +
+function makeCard(m) {
+  return '<div class="card" id="card-' + m.key + '" style="display:none">' +
     '<h2>Лучший ключ — ' + m.label + '</h2>' +
     '<div class="key-box empty" id="key-' + m.key + '">Загрузка...</div>' +
     '<button class="copy-btn" id="btn-' + m.key + '" disabled onclick="copyKey(\'' + m.key + '\')">Копировать</button>' +
     '<div class="top5" id="top5-' + m.key + '"></div>' +
     '<div class="stats" id="stats-' + m.key + '"></div>' +
-    '</div>'
-  ).join('');
+    '</div>';
+}
+
+function buildCards() {
+  const container = document.getElementById('cards');
+  container.innerHTML = MODES.map(makeCard).join('');
 }
 
 function switchMode(mode) {
@@ -57,6 +60,50 @@ async function loadData() {
   }
 }
 
+function injectOtherCountries() {
+  const countries = data.other_countries;
+  if (!countries) return;
+
+  const tabsEl = document.getElementById('tabs-countries');
+  const cardsEl = document.getElementById('cards');
+
+  // Remove previously injected dynamic tabs/cards
+  dynamicModes.forEach(m => {
+    const btn = document.getElementById('dyntab-' + m.key);
+    const card = document.getElementById('card-' + m.key);
+    if (btn) btn.remove();
+    if (card) card.remove();
+  });
+  dynamicModes = [];
+
+  // Sort countries by working keys count desc
+  const sorted = Object.entries(countries)
+    .filter(([, d]) => d.total_working > 0)
+    .sort((a, b) => b[1].total_working - a[1].total_working);
+
+  sorted.forEach(([name, d]) => {
+    const key = 'dyn_' + name.replace(/\s+/g, '_').toLowerCase();
+    const label = (d.flag || '🌍') + ' ' + name;
+    const m = { key, label, section: 'vpn', _data: d };
+    dynamicModes.push(m);
+
+    // Add tab button
+    const btn = document.createElement('button');
+    btn.className = 'tab';
+    btn.id = 'dyntab-' + key;
+    btn.setAttribute('onclick', "switchMode('" + key + "')");
+    btn.textContent = label;
+    tabsEl.appendChild(btn);
+
+    // Add card
+    cardsEl.insertAdjacentHTML('beforeend', makeCard(m));
+
+    // Inject data
+    data[key] = d;
+    render(key);
+  });
+}
+
 function renderAll() {
   const utcStr = data.updated_at;
   let displayTime = utcStr || '—';
@@ -71,9 +118,12 @@ function renderAll() {
   }
   document.getElementById('updated').textContent = 'Обновлено: ' + displayTime;
 
+  injectOtherCountries();
+
+  const allModes = [...MODES, ...dynamicModes];
   const emptyVpn = [];
   const emptyWhite = [];
-  MODES.forEach(m => {
+  allModes.forEach(m => {
     if (data[m.key]) render(m.key);
     const hasKeys = data[m.key] && data[m.key].total_working > 0;
     const tabBtn = document.querySelector(

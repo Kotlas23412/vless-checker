@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
+import re
 import requests
 import socket
 import time
 import json
 import os
+from collections import defaultdict
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -25,6 +27,26 @@ COUNTRIES = {
 }
 
 COUNTRIES_ALL_KEYWORDS = [kw for kws in COUNTRIES.values() for kw in kws]
+
+SKIP_COUNTRY_NAMES = {"anycast", "anycast-ip", "unknown"}
+
+
+
+def parse_country_from_key(key):
+    """Returns (country_name, flag_emoji) parsed from the key's URL fragment."""
+    if '#' not in key:
+        return None, None
+    from urllib.parse import unquote
+    fragment = unquote(key.split('#', 1)[1])
+    match = re.search(
+        r'([A-Z][A-Za-z\u00C0-\u017E](?:[A-Za-z\u00C0-\u017E\s\-]*[A-Za-z\u00C0-\u017E])?)(?:\s*[,|])',
+        fragment
+    )
+    if not match:
+        return None, None
+    country = match.group(1).strip()
+    flag = fragment[:match.start()].strip()
+    return country, flag
 
 
 def fetch_keys(url):
@@ -153,11 +175,33 @@ def main():
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
 
-    for country in list(COUNTRIES.keys()) + ["other"]:
+    for country in list(COUNTRIES.keys()):
         filtered = filter_keys(black_keys, country)
         print(f"[{country}] {len(filtered)} ключей, проверяем...")
         results[country] = check_mode(filtered, old_first_seen)
         print(f"[{country}] Рабочих: {results[country]['total_working']}/{results[country]['total']}")
+
+    other_keys = filter_keys(black_keys, "other")
+    print(f"[other] {len(other_keys)} ключей, группируем по странам...")
+    country_groups = defaultdict(list)
+    country_flags = {}
+    for key in other_keys:
+        name, flag = parse_country_from_key(key)
+        if not name or name.lower() in SKIP_COUNTRY_NAMES:
+            name = "Other"
+            flag = "🌍"
+        country_groups[name].append(key)
+        if name not in country_flags:
+            country_flags[name] = flag
+
+    other_countries = {}
+    for name, keys in country_groups.items():
+        print(f"  [{name}] {len(keys)} ключей, проверяем...")
+        checked = check_mode(keys, old_first_seen)
+        print(f"  [{name}] Рабочих: {checked['total_working']}/{checked['total']}")
+        checked["flag"] = country_flags[name]
+        other_countries[name] = checked
+    results["other_countries"] = other_countries
 
     for mode in ("w_baltics", "w_finland", "w_germany", "w_sweden", "w_netherlands", "w_poland", "w_other", "russia"):
         filtered = filter_keys(white_keys, mode)
