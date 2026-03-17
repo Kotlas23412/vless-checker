@@ -73,7 +73,7 @@ python3 checker.py
 
 | Способ | Реквизиты |
 |---|---|
-| 🟡 **ЮMoney** | [Ссылка на донат](https://yoomoney.ru/to/НОМЕР)
+| 🟡 **ЮMoney** | [Ссылка на донат](https://yoomoney.ru/to/4100119494911366)
 
 ---
 
