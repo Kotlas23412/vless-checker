@@ -345,3 +345,28 @@ h1 {
   margin-left: 4px;
   letter-spacing: 0.03em;
 }
+
+.country-block {
+  border-top: 1px solid #2a2a3a;
+  padding-top: 14px;
+  margin-top: 14px;
+}
+
+.country-block:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.country-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.country-stats {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #888;
+}
