@@ -12,7 +12,7 @@ from urllib.parse import unquote
 
 # Ссылки на источники (теперь обрабатываются как единый пул)
 URLS = [
-    "https://raw.githubusercontent.com/kort0881/vpn-checker-backend/refs/heads/main/checked/RU_Best/ru_white_all_WHITE.txt",",
+    "https://raw.githubusercontent.com/kort0881/vpn-checker-backend/refs/heads/main/checked/RU_Best/ru_white_all_WHITE.txt"
 ]
 
 MAX_WORKERS = 30
