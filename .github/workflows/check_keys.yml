@@ -34,10 +34,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Добавляем и JSON и TXT файлы
-          git add docs/keys.json
-          git add docs/working_keys.txt
-          # Фиксируем изменения, если они есть
-          git diff --cached --quiet || git commit -m "chore: update keys and txt list [skip ci]"
+          # Используем -f чтобы обойти .gitignore
+          git add -f docs/keys.json
+          git add -f docs/working_keys.txt
+          git commit -m "chore: update keys and txt list [skip ci]" || echo "No changes to commit"
           git pull --rebase origin main
           git push
