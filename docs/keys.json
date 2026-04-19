@@ -1,48 +1,44 @@
 {
-  "updated_at": "2026-04-19 14:10 UTC",
+  "updated_at": "2026-04-19 15:07 UTC",
   "countries": {
     "baltics": {
-      "total_working": 10,
+      "total_working": 9,
       "top10": [
         {
-          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@169.40.2.37:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=lv.crunch-crunch.com&path=&host=169.40.5.234#[341ms Латвия LV 🇱🇻 @vlesstrojan]",
-          "latency_ms": 141.8
-        },
-        {
-          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@37.128.207.218:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=lv.crunch-crunch.com&path=&host=37.128.207.218#[347ms Латвия LV 🇱🇻 @vlesstrojan]",
-          "latency_ms": 142.4
-        },
-        {
           "key": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?type=tcp&security=reality&encryption=none&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&sni=yahoo.com#[565ms Латвия LV 🇱🇻 @vlesstrojan]",
-          "latency_ms": 146.5
+          "latency_ms": 162.7
         },
         {
           "key": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?type=tcp&security=reality&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&sni=yahoo.com#[655ms Латвия LV 🇱🇻 @vlesstrojan]",
-          "latency_ms": 152.5
-        },
-        {
-          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.249.53:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[394ms Эстония EE 🇪🇪 @vlesstrojan]",
-          "latency_ms": 152.6
-        },
-        {
-          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.249.1:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[387ms Эстония EE 🇪🇪 @vlesstrojan]",
-          "latency_ms": 153.0
-        },
-        {
-          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.224.28:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[388ms Эстония EE 🇪🇪 @vlesstrojan]",
-          "latency_ms": 156.5
+          "latency_ms": 163.9
         },
         {
           "key": "vless://9037fde7-debb-4fe7-8c73-09f520f3f821@95.85.242.196:59283?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=oPsbZoI_Ikl-nC6vS2-Va7Fx11FSgAK5buqI3yBbSWE&sid=07a0bc&sni=www.amazon.com&spx=/9WiC3w5XzS89nNn#[349ms Эстония EE 🇪🇪 @vlesstrojan]",
-          "latency_ms": 161.9
+          "latency_ms": 167.0
+        },
+        {
+          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@169.40.2.37:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=lv.crunch-crunch.com&path=&host=169.40.5.234#[341ms Латвия LV 🇱🇻 @vlesstrojan]",
+          "latency_ms": 169.7
+        },
+        {
+          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.249.1:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[387ms Эстония EE 🇪🇪 @vlesstrojan]",
+          "latency_ms": 172.4
+        },
+        {
+          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@37.128.207.218:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=lv.crunch-crunch.com&path=&host=37.128.207.218#[347ms Латвия LV 🇱🇻 @vlesstrojan]",
+          "latency_ms": 176.3
+        },
+        {
+          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.249.53:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[394ms Эстония EE 🇪🇪 @vlesstrojan]",
+          "latency_ms": 180.3
         },
         {
           "key": "vless://a707c280-f8ab-4411-b724-bd9244fd4e65@lv.crunch-crunch.com:11111?type=xhttp&security=none&encryption=none&path=/new-weels#[244ms Латвия LV 🇱🇻 @vlesstrojan]",
-          "latency_ms": 212.7
+          "latency_ms": 383.8
         },
         {
-          "key": "vless://91bbe282-f2ba-46a6-8752-36ae55279169@yes.normbot.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U&sid=d869895b2a50728d&sni=yes.normbot.ru#[1385ms Эстония EE 🇪🇪 @vlesstrojan]",
-          "latency_ms": 6346.0
+          "key": "vless://995a7cb1-c8db-4faa-bc3b-fa0a90da96d0@95.85.224.28:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vkvideo.cs7777.vk.ru&pbk=dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E#[388ms Эстония EE 🇪🇪 @vlesstrojan]",
+          "latency_ms": 3249.0
         }
       ]
     },
@@ -50,179 +46,179 @@
       "total_working": 53,
       "top10": [
         {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=qq&sni=sub.sbrf-cdn342.ru&alpn=http/1.1#[323ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 137.0
-        },
-        {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.107:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru#[342ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 137.3
+          "key": "vless://f7bae22e-20ab-11f1-835c-0242ac110002@141.98.169.100:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=fi1.cyphervpn.pro&pbk=z_mZq7riCGYKcTsXGCFX3KyhLL5PYgG3ydZ8_wM_ZkU&sid=5bfa0c#[341ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 158.1
         },
         {
           "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.107:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=qq&sni=sub.sbrf-cdn342.ru&alpn=http/1.1#[332ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 137.6
-        },
-        {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru#[342ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 138.1
-        },
-        {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?allowInsecure=1&type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru&alpn=http/1.1#[327ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 139.1
+          "latency_ms": 158.7
         },
         {
           "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.107:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=qq&sni=sub.sbrf-cdn342.ru&alpn=http%2F1.1#[321ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 140.2
+          "latency_ms": 158.8
+        },
+        {
+          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru#[342ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 158.8
+        },
+        {
+          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=qq&sni=sub.sbrf-cdn342.ru&alpn=http/1.1#[323ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 159.0
         },
         {
           "key": "vless://185c656e-39cb-4149-bdb1-ea1b41769137@144.31.7.203:443?type=tcp&security=reality&fp=random&pbk=TUJ5A2RgWJJDkR_XIqBrep4CjZ5VRivEisDHck-yxkg&sid=62&sni=www.google.com&spx=/#[342ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 140.4
+          "latency_ms": 160.5
         },
         {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.118:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru&path=/#[339ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 142.4
+          "key": "vless://f7bae22e-20ab-11f1-835c-0242ac110002@141.98.169.100:443?type=tcp&security=reality&encryption=none&pbk=z_mZq7riCGYKcTsXGCFX3KyhLL5PYgG3ydZ8_wM_ZkU&sid=5bfa0c&sni=fi1.cyphervpn.pro#[323ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 161.9
+        },
+        {
+          "key": "vless://f3b47775-edd2-42f8-94ac-9d315ae5463d@83.219.97.166:30297?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=j07H9kYduVQkwjQw-7PW0um-0FUeCNe9J70oLv8I03I&sid=626617b8f5c8&sni=google.com#[487ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 161.9
+        },
+        {
+          "key": "vless://f7bae22e-20ab-11f1-835c-0242ac110002@141.98.169.100:443?encryption=none&type=tcp&security=reality&sni=fi1.cyphervpn.pro&pbk=z_mZq7riCGYKcTsXGCFX3KyhLL5PYgG3ydZ8_wM_ZkU&sid=5bfa0c#[330ms Финляндия FI 🇫🇮 @vlesstrojan]",
+          "latency_ms": 162.7
         },
         {
           "key": "vless://f7bae22e-20ab-11f1-835c-0242ac110002@141.98.169.100:443?encryption=none&type=tcp&security=reality&fp=firefox&sni=fi1.cyphervpn.pro&pbk=z_mZq7riCGYKcTsXGCFX3KyhLL5PYgG3ydZ8_wM_ZkU&sid=5bfa0c&spx=%2F#[325ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 142.8
-        },
-        {
-          "key": "vless://c4f2dee2-14e3-4c02-91e9-31c7917e239c@185.93.105.107:443?allowInsecure=1&type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru&alpn=http/1.1#[323ms Финляндия FI 🇫🇮 @vlesstrojan]",
-          "latency_ms": 143.2
+          "latency_ms": 162.8
         }
       ]
     },
     "germany": {
-      "total_working": 245,
+      "total_working": 243,
       "top10": [
         {
-          "key": "vless://dd09a21b-c1ac-4fde-83bb-dc09f85416b6@ge1.pineappled.org:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&packetEncoding=xudp&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&sid=23&sni=www.apple.com&type=tcp#[1291ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 127.3
+          "key": "vless://dd09a21b-c1ac-4fde-83bb-dc09f85416b6@ge1.pineappled.org:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=23&sni=www.apple.com#[1021ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 148.9
         },
         {
-          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@143.20.134.143:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=de.crunch-crunch.com&path=&host=138.124.61.194#[308ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 128.2
+          "key": "vless://1e45a266-9a04-47af-b703-e53a67373cc9@45.86.70.95:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=zQ3SBKNWRtAsrnU-Y2XiSEHodF_sgZ3UsKNfmIwRbjI&sid=9ff26c38f9b488&sni=max.ru#[415ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 149.2
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=etre-belle.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[738ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 128.7
+          "key": "vless://0844ceed-af3c-46cd-9d29-2295309a1701@107.149.184.246:10501?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk&sid=9153&sni=img14.360buyimg.com#[353ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 149.7
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=chronicle.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[340ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 129.3
+          "key": "vless://0844ceed-af3c-46cd-9d29-2295309a1701@501.rushrushnode.org:10501?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk&sid=9153&sni=img14.360buyimg.com&path=&host=&serviceName=&quicSecurity=none#[432ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 149.8
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=mlx.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[304ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 129.4
+          "key": "vless://0844ceed-af3c-46cd-9d29-2295309a1701@107.149.184.246:10501?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk&sid=9153&sni=img14.360buyimg.com#[367ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 150.2
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=nativesmokes4less.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[324ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 129.4
+          "key": "vless://0844ceed-af3c-46cd-9d29-2295309a1701@107.149.184.246:10501?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk&sid=9153&sni=img14.360buyimg.com#[2535ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 150.3
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rusvesna.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[305ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 129.8
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=perevodchiki.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[322ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 150.5
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=uea.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[333ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 130.1
+          "key": "vless://c5992ba6-8ecb-4a2f-b95f-548bf2793949@193.42.11.94:54443?type=tcp&security=tls&fp=chrome&sni=ads.x5.ru&path=&host=&alpn=http/1.1#[294ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 151.6
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@94.156.170.127:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=nsk.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[336ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 130.1
+          "key": "vless://6425f013-4938-41a9-9f0c-5a2ba75bd974@159.195.35.239:4355?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[661ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 152.7
         },
         {
-          "key": "vless://cb1691ad-49cc-46a9-b734-91c109200c32@82.21.114.184:47030?security=reality&sni=api-maps.yandex.ru&pbk=cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8&sid=e18eda8458cab0d7&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#[624ms Германия DE 🇩🇪 @vlesstrojan]",
-          "latency_ms": 130.2
+          "key": "vless://46b10a54-a6b2-4b1d-bc88-388346ae48d9@159.195.69.251:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=eHgRhHYifD2njbtjzgMsNPGnvbpAK8SSXC5-wFuQnQ4&sid=65b5280b52e0532c&sni=fastsync.xyz&spx=/#[339ms Германия DE 🇩🇪 @vlesstrojan]",
+          "latency_ms": 152.8
         }
       ]
     },
     "sweden": {
-      "total_working": 73,
+      "total_working": 74,
       "top10": [
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=lud.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[382ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.0
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=natalie.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[417ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 157.3
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=savepic.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[533ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.0
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=lud.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[382ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 159.3
+        },
+        {
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=4check.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[364ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 159.4
+        },
+        {
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=seo18.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[387ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 159.4
         },
         {
           "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=indihouse.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[420ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.2
+          "latency_ms": 159.5
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=astrakhan.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[409ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.3
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=infoclean.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[437ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 159.5
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=etre-belle.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[390ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.4
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ata.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[456ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 159.8
+        },
+        {
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=staroetv.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[494ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 160.0
         },
         {
           "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=gepart.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[415ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.4
+          "latency_ms": 160.0
         },
         {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=otlichniki.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[496ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.6
-        },
-        {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=natalie.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[417ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.6
-        },
-        {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jet.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[486ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 137.7
-        },
-        {
-          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=admiral.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[468ms Швеция SE 🇸🇪 @vlesstrojan]",
-          "latency_ms": 138.1
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@84.32.49.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=icf.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[484ms Швеция SE 🇸🇪 @vlesstrojan]",
+          "latency_ms": 160.0
         }
       ]
     },
     "netherlands": {
-      "total_working": 144,
+      "total_working": 142,
       "top10": [
         {
-          "key": "vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk&sid=11e2&sni=yahoo.com&path=&host=&serviceName=&quicSecurity=none#[546ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 122.7
-        },
-        {
-          "key": "vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?type=tcp&security=reality&encryption=none&fp=qq&pbk=A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk&sid=11e2&sni=yahoo.com#[504ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 122.9
-        },
-        {
-          "key": "vless://1c61a6c0-9bc7-4cb8-9188-6d86d5989388@72.56.75.169:8443?type=tcp&security=reality&fp=chrome&pbk=XEWgLksY3vnV9riMEO7AZ7HR0Ecv3HxXLFglZtcmx00&sid=d5&sni=nltw4.lckdwn.ru#[312ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 123.1
-        },
-        {
-          "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@178.173.254.147:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=nl.crunch-crunch.com&path=&host=178.173.254.147#[319ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 123.5
-        },
-        {
-          "key": "vless://19ef3d02-1c55-4fec-9794-6def8cbac396@nl2cdn.onnstreaming.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=QWH33452pJJVMO54NNzBmBCWkKyr6yHiHXppU3lI9gs&sid=cb19fee3b9333636&sni=nl2cdn.onnstreaming.ru#[517ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 125.5
-        },
-        {
-          "key": "vless://931a52bd-8a65-4df7-a50a-c758f19d010c@193.23.194.32:5443?type=tcp&security=reality&encryption=none&fp=firefox&pbk=lA2s-Trf3ZL92OgmBL9ML0odq6W4ruDaOKqMzeXTPRY&sid=bc49bac5926c3284&sni=google.com&spx=/#[311ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 125.7
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@46.8.112.156:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=nativesmokes4less.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[370ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 141.7
         },
         {
           "key": "vless://6b491b78-c9d6-48d3-beee-dd3ae7f1f311@141.98.24.54:443?type=tcp&security=reality&fp=random&pbk=h6xEGPQUA8iubWgDi-kcVAp-fkc_9-fx0WISxfxqzRI&sid=74&sni=www.google.com&spx=/#[305ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 126.4
+          "latency_ms": 141.8
         },
         {
-          "key": "vless://c5992ba6-8ecb-4a2f-b95f-548bf2793949@150.251.138.132:54443?type=tcp&security=tls&fp=chrome&sni=ya.ru&path=&host=#[308ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 127.5
+          "key": "vless://d3f088a5-58d6-4dc6-adab-54d74e339c62@85.209.157.47:568?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=59QwNDh3sgvFX12hCCoCveYykCzo19hxh6wel3hN3GA&sni=www.amd.com#[652ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 142.4
         },
         {
-          "key": "vless://19ef3d02-1c55-4fec-9794-6def8cbac396@nl2cdn.onnstreaming.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=QWH33452pJJVMO54NNzBmBCWkKyr6yHiHXppU3lI9gs&sid=cb19fee3b9333636&sni=nl2cdn.onnstreaming.ru#[308ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 127.7
+          "key": "vless://6b491b78-c9d6-48d3-beee-dd3ae7f1f311@141.98.24.54:443?type=tcp&security=reality&encryption=none&fp=random&pbk=h6xEGPQUA8iubWgDi-kcVAp-fkc_9-fx0WISxfxqzRI&sid=74&sni=www.google.com#[319ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 142.4
+        },
+        {
+          "key": "vless://6b491b78-c9d6-48d3-beee-dd3ae7f1f311@141.98.24.54:443?type=tcp&security=reality&encryption=none&fp=random&pbk=h6xEGPQUA8iubWgDi-kcVAp-fkc_9-fx0WISxfxqzRI&sid=74&sni=www.google.com#[321ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 142.5
+        },
+        {
+          "key": "vless://2f226834-a6c7-4a61-aa48-6eaaaf56b331@46.8.112.156:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=tsushima.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#[520ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 143.0
+        },
+        {
+          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@85.209.157.47:568?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=59QwNDh3sgvFX12hCCoCveYykCzo19hxh6wel3hN3GA&sni=www.amd.com#[584ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 143.1
+        },
+        {
+          "key": "vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk&sid=11e2&sni=yahoo.com&spx=/#[541ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 143.3
+        },
+        {
+          "key": "vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?type=tcp&security=reality&encryption=none&fp=&pbk=A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk&sid=11e2&sni=yahoo.com#[539ms Нидерланды NL 🇳🇱 @vlesstrojan]",
+          "latency_ms": 143.4
         },
         {
           "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@178.173.254.148:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=nl.crunch-crunch.com&path=&host=178.173.254.148#[307ms Нидерланды NL 🇳🇱 @vlesstrojan]",
-          "latency_ms": 127.9
+          "latency_ms": 143.5
         }
       ]
     },
@@ -230,89 +226,89 @@
       "total_working": 59,
       "top10": [
         {
-          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@45.15.128.239:603?type=grpc&security=reality&encryption=none&fp=random&pbk=lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek&sid=&sni=www.amd.com#[327ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 139.5
+          "key": "vless://d3f088a5-58d6-4dc6-adab-54d74e339c62@45.15.128.232:603?type=grpc&security=reality&encryption=none&fp=random&pbk=lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek&sni=www.amd.com#[354ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 143.0
         },
         {
           "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@45.15.128.239:603?type=grpc&security=reality&encryption=none&fp=random&pbk=lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek&sni=www.amd.com&mode=gun#[335ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 139.6
+          "latency_ms": 148.6
         },
         {
-          "key": "vless://597380c7-1b62-434b-89f6-96b9f49514fa@77.83.196.73:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=hZ2suCOyxMqdLE9YexeRtoG5r5isMoztbDrfMbiOIEY&sni=nextcloud.com&spx=/#[418ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 141.5
+          "key": "vless://fad2b7e0-d80c-4b7b-a84f-d86e0e49f627@45.15.128.75:8443?type=tcp&security=reality&encryption=none=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&flow=xtls-rprx-vision&fp=chrome&pbk=BSsqyfTD-avgb1CyUdy_qJA95HwyMadBMJt7-EQjggk&sid=e473bbc75224b9df&sni=max.ru&host=Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&spx=/#[458ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 150.0
+        },
+        {
+          "key": "vless://fad2b7e0-d80c-4b7b-a84f-d86e0e49f627@45.15.128.75:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=BSsqyfTD-avgb1CyUdy_qJA95HwyMadBMJt7-EQjggk&sid=e473bbc75224b9df&sni=max.ru&alpn=h2,http/1.1#[1151ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 155.1
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@85.158.57.75:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[414ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 158.1
         },
         {
           "key": "vless://7e0a9f75-b424-493b-b7e6-cebd7ea8642d@144.31.4.127:443?allowInsecure=1&type=tcp&security=tls&encryption=none#[336ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 141.7
-        },
-        {
-          "key": "vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&sni=modily.net#[382ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 142.7
-        },
-        {
-          "key": "vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&sni=modily.net#[366ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 143.6
-        },
-        {
-          "key": "vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&sni=modily.net&host=/%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#[386ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 143.7
-        },
-        {
-          "key": "vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&sni=modily.net#[396ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 143.8
+          "latency_ms": 159.8
         },
         {
           "key": "vless://caf9d5f7-77f2-4033-823e-d55a1996fc4a@185.241.208.70:30047?type=ws&encryption=none#[480ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 143.9
+          "latency_ms": 160.8
         },
         {
-          "key": "vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&sni=modily.net&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#[361ms Польша PL 🇵🇱 @vlesstrojan]",
-          "latency_ms": 144.6
+          "key": "vless://TMG_fb05c718425@45.140.204.33:443?type=xhttp&security=reality&encryption=none&fp=chrome&pbk=pVqZEt6EV2bFAyeugIZWGUabTI-MWkPokcN3BFbGl0s&sid=2eb085c1de19&sni=www.kinopoisk.ru&path=/JMjFqdkAswkJ&host=www.kinopoisk.ru&mode=auto&spx=/#[458ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 161.4
+        },
+        {
+          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@45.15.128.239:603?type=grpc&security=reality&encryption=none&fp=random&pbk=lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek&sid=&sni=www.amd.com#[327ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 161.5
+        },
+        {
+          "key": "vless://d3f088a5-58d6-4dc6-adab-54d74e339c62@103.68.110.48:695?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=bEJ_FRtl_fL90waFc_KrH4kRBXClFm32kudB4zbQvnc&sni=www.amd.com#[594ms Польша PL 🇵🇱 @vlesstrojan]",
+          "latency_ms": 161.6
         }
       ]
     },
     "usa": {
-      "total_working": 118,
+      "total_working": 116,
       "top10": [
         {
-          "key": "vless://Telegram-Parsashonam@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir#[45ms US US  @vlesstrojan]",
-          "latency_ms": 17.7
-        },
-        {
-          "key": "vless://Telegram-Parsashonam@8.6.112.0:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&host=test.atlasw.ir&mode=auto#[61ms US US  @vlesstrojan]",
-          "latency_ms": 18.0
-        },
-        {
           "key": "vless://Telegram-Parsashonam@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&host=test.atlasw.ir&mode=auto#[54ms US US  @vlesstrojan]",
-          "latency_ms": 18.0
+          "latency_ms": 4.8
         },
         {
-          "key": "vless://5226e633-3693-5ba2-afe6-d9904850899d@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&mode=auto#[62ms US US  @vlesstrojan]",
-          "latency_ms": 18.0
-        },
-        {
-          "key": "vless://5226e633-3693-5ba2-afe6-d9904850899d@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&host=test.atlasw.ir&mode=auto#[47ms US US  @vlesstrojan]",
-          "latency_ms": 18.3
+          "key": "vless://Telegram-Parsashonam@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir#[45ms US US  @vlesstrojan]",
+          "latency_ms": 4.8
         },
         {
           "key": "vless://Telegram-Parsashonam@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&path=/#[71ms US US  @vlesstrojan]",
-          "latency_ms": 18.4
+          "latency_ms": 4.9
+        },
+        {
+          "key": "vless://5226e633-3693-5ba2-afe6-d9904850899d@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&mode=auto#[62ms US US  @vlesstrojan]",
+          "latency_ms": 5.0
+        },
+        {
+          "key": "vless://Telegram-Parsashonam@8.6.112.0:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&host=test.atlasw.ir&mode=auto#[61ms US US  @vlesstrojan]",
+          "latency_ms": 5.1
+        },
+        {
+          "key": "vless://5226e633-3693-5ba2-afe6-d9904850899d@8.6.112.6:443?type=xhttp&security=tls&encryption=none&sni=test.atlasw.ir&host=test.atlasw.ir&mode=auto#[47ms US US  @vlesstrojan]",
+          "latency_ms": 5.7
         },
         {
           "key": "vless://8cf1c214-3376-11f1-bf19-dcb6e8e27879@92.118.126.205:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&sni=cloudcdn-m9-15.cdn.yandex.net&fp=randomized&pbk=APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI&sid=#[1844ms US US  @vlesstrojan]",
-          "latency_ms": 31.2
-        },
-        {
-          "key": "vless://9c79aceb-4649-44ea-9698-b5e9ecf6d6da@156.229.161.107:10001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4&sid=fb2c6678&sni=www.icloud.com&path=&host=&serviceName=&quicSecurity=none#[345ms US US  @vlesstrojan]",
-          "latency_ms": 35.9
-        },
-        {
-          "key": "vless://ef413b60-7df5-4503-a2ce-42f0e28d700b@5.181.3.243:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=3NM_w-CzrSzwMPkVl2UpgwtmdZbt78d3PsQEl0wFhk4&sid=6e10f0b884da57d5&sni=m.ok.ru#[459ms US US  @vlesstrojan]",
-          "latency_ms": 37.1
+          "latency_ms": 33.9
         },
         {
           "key": "vless://f9a0061a-0585-43ab-9cce-12099b48be53@165.245.138.236:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087&sni=us.crunch-crunch.com&path=&host=165.245.138.236#[111ms US US  @vlesstrojan]",
-          "latency_ms": 37.9
+          "latency_ms": 58.4
+        },
+        {
+          "key": "vless://ef413b60-7df5-4503-a2ce-42f0e28d700b@5.181.3.243:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=3NM_w-CzrSzwMPkVl2UpgwtmdZbt78d3PsQEl0wFhk4&sid=6e10f0b884da57d5&sni=m.ok.ru#[459ms US US  @vlesstrojan]",
+          "latency_ms": 59.8
+        },
+        {
+          "key": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.33:8880?type=grpc&security=none&encryption=none&mode=gun#[66ms US US  @vlesstrojan]",
+          "latency_ms": 63.8
         }
       ]
     },
@@ -321,27 +317,27 @@
       "top10": [
         {
           "key": "vless://16963833-bed3-405c-be42-dee3f835846c@94.131.86.204:443?type=tcp&security=reality&fp=random&pbk=pl0X8gUdDuJlCmJkPIgVL3HIbD8pL9LHGVUMgqQIlio&sid=c6&sni=www.google.com&spx=/#[593ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 200.0
-        },
-        {
-          "key": "vless://d3f088a5-58d6-4dc6-adab-54d74e339c62@213.155.13.59:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sni=www.amd.com#[799ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 220.7
+          "latency_ms": 218.9
         },
         {
           "key": "vless://cb1691ad-49cc-46a9-b734-91c109200c32@90.156.230.108:47030?security=reality&sni=api-maps.yandex.ru&fp=qq&pbk=cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8&sid=e18eda8458cab0d7&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#[930ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 305.9
-        },
-        {
-          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@213.155.13.104:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sni=www.amd.com#[778ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 402.6
-        },
-        {
-          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@213.155.13.104:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sid=&sni=www.amd.com#[762ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 407.2
+          "latency_ms": 270.4
         },
         {
           "key": "vless://aae59c28-a4e7-46bd-8fa5-a239e8cfe0b1@kz.plus-hit.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=kz.plus-hit.ru&pbk=d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI&fp=random&bx=%2F&sid=e57a98b23c47a621#[1231ms KZ KZ  @vlesstrojan]",
-          "latency_ms": 491.7
+          "latency_ms": 374.3
+        },
+        {
+          "key": "vless://d3f088a5-58d6-4dc6-adab-54d74e339c62@213.155.13.59:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sni=www.amd.com#[799ms KZ KZ  @vlesstrojan]",
+          "latency_ms": 458.8
+        },
+        {
+          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@213.155.13.104:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sni=www.amd.com#[778ms KZ KZ  @vlesstrojan]",
+          "latency_ms": 586.1
+        },
+        {
+          "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@213.155.13.104:529?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=uUBSD8_oKd9acHbM03-elebwOJNjiPSVKSVrRtrtOEg&sid=&sni=www.amd.com#[762ms KZ KZ  @vlesstrojan]",
+          "latency_ms": 591.0
         }
       ]
     },
@@ -349,44 +345,44 @@
       "total_working": 25,
       "top10": [
         {
-          "key": "vless://d9bbabc9-46c2-4898-a378-00cd266ed55e@144.31.130.107:841?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=1tnEBVkjwIXD1vZo6bUo0h6yZI11X7b4bq1cTGIDlU4&sni=www.amd.com#[336ms TR TR  @vlesstrojan]",
-          "latency_ms": 141.8
-        },
-        {
           "key": "vless://8d7688af-e389-490a-9888-3d6785baba42@144.31.130.106:841?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=1tnEBVkjwIXD1vZo6bUo0h6yZI11X7b4bq1cTGIDlU4&sni=www.amd.com#[400ms TR TR  @vlesstrojan]",
-          "latency_ms": 145.0
-        },
-        {
-          "key": "vless://d9bbabc9-46c2-4898-a378-00cd266ed55e@144.31.130.107:841?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=1tnEBVkjwIXD1vZo6bUo0h6yZI11X7b4bq1cTGIDlU4&sid=&sni=www.amd.com#[337ms TR TR  @vlesstrojan]",
-          "latency_ms": 150.3
-        },
-        {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@212.115.103.190:4356?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[577ms TR TR  @vlesstrojan]",
-          "latency_ms": 161.8
-        },
-        {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4356?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1221ms TR TR  @vlesstrojan]",
-          "latency_ms": 161.9
-        },
-        {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[498ms TR TR  @vlesstrojan]",
           "latency_ms": 162.0
         },
         {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@212.115.103.190:4355?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[480ms TR TR  @vlesstrojan]",
-          "latency_ms": 165.2
+          "key": "vless://d9bbabc9-46c2-4898-a378-00cd266ed55e@144.31.130.107:841?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=1tnEBVkjwIXD1vZo6bUo0h6yZI11X7b4bq1cTGIDlU4&sni=www.amd.com#[336ms TR TR  @vlesstrojan]",
+          "latency_ms": 164.3
         },
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4434?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1554ms TR TR  @vlesstrojan]",
-          "latency_ms": 165.2
-        },
-        {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4435?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[384ms TR TR  @vlesstrojan]",
-          "latency_ms": 166.2
+          "key": "vless://d9bbabc9-46c2-4898-a378-00cd266ed55e@144.31.130.107:841?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=1tnEBVkjwIXD1vZo6bUo0h6yZI11X7b4bq1cTGIDlU4&sid=&sni=www.amd.com#[337ms TR TR  @vlesstrojan]",
+          "latency_ms": 164.8
         },
         {
           "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4424?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[521ms TR TR  @vlesstrojan]",
-          "latency_ms": 166.6
+          "latency_ms": 179.6
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4357?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[462ms TR TR  @vlesstrojan]",
+          "latency_ms": 179.7
+        },
+        {
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@212.115.103.190:4359?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1540ms TR TR  @vlesstrojan]",
+          "latency_ms": 180.6
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4359?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1482ms TR TR  @vlesstrojan]",
+          "latency_ms": 180.7
+        },
+        {
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@212.115.103.190:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[468ms TR TR  @vlesstrojan]",
+          "latency_ms": 181.0
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4424?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[530ms TR TR  @vlesstrojan]",
+          "latency_ms": 181.7
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@212.115.103.190:4434?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1554ms TR TR  @vlesstrojan]",
+          "latency_ms": 183.1
         }
       ]
     },
@@ -394,44 +390,44 @@
       "total_working": 26,
       "top10": [
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4356?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[1721ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 127.8
-        },
-        {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@151.241.30.196:4434?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[983ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 128.4
-        },
-        {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4434?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[1308ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 128.4
-        },
-        {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4355?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[410ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 130.0
-        },
-        {
           "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4356?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[881ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 132.0
+          "latency_ms": 156.7
         },
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4393?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[367ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 133.9
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4355?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[337ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 156.8
         },
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4359?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[340ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 134.0
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@151.241.30.196:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[378ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 157.8
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4424?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[439ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 158.8
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4393?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[325ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 158.8
+        },
+        {
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@151.241.30.196:4393?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[334ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 159.0
         },
         {
           "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4434?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[617ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 135.3
+          "latency_ms": 159.1
         },
         {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@151.241.30.196:4424?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[736ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 135.7
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4424?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[419ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 159.1
         },
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[361ms Италия IT 🇮🇹 @vlesstrojan]",
-          "latency_ms": 136.0
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4356?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[1721ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 159.3
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@151.241.30.196:4393?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[367ms Италия IT 🇮🇹 @vlesstrojan]",
+          "latency_ms": 159.3
         }
       ]
     },
@@ -439,89 +435,89 @@
       "total_working": 25,
       "top10": [
         {
-          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@185.167.234.177:4359?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[338ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 137.6
-        },
-        {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4355?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[433ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 137.7
-        },
-        {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@185.167.234.177:4359?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[342ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 138.0
+          "key": "vless://0eeb4c1d-bc22-4ef3-ba84-79dd0ade8740@45.12.111.151:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=Z--Ieq3GtHx_Qtqj3NUyK5wY2foVBtlOkyzXqESeswU&sid=0c80cc39&sni=store.steampowered.com#[342ms Швейцария CH 🇨🇭 @vlesstrojan]",
+          "latency_ms": 156.7
         },
         {
           "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4359?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[388ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 138.9
+          "latency_ms": 161.2
         },
         {
           "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4434?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[1458ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 139.1
+          "latency_ms": 161.3
         },
         {
           "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4424?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[458ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 139.3
+          "latency_ms": 161.4
         },
         {
           "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@141.11.164.242:4357?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[336ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 139.3
+          "latency_ms": 162.7
         },
         {
           "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4356?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[394ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 140.0
-        },
-        {
-          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[325ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 140.3
+          "latency_ms": 162.8
         },
         {
           "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.242:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[352ms Швейцария CH 🇨🇭 @vlesstrojan]",
-          "latency_ms": 141.7
+          "latency_ms": 163.1
+        },
+        {
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4355?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[433ms Швейцария CH 🇨🇭 @vlesstrojan]",
+          "latency_ms": 163.2
+        },
+        {
+          "key": "vless://9bc43d33-6d90-420d-869a-6d4f69b28c4c@141.11.164.244:4357?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#[325ms Швейцария CH 🇨🇭 @vlesstrojan]",
+          "latency_ms": 163.3
+        },
+        {
+          "key": "vless://82ae5746-137c-4e94-9338-07b63087699a@141.11.164.199:4424?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&sni=files.moscownews24.ru#[424ms Швейцария CH 🇨🇭 @vlesstrojan]",
+          "latency_ms": 164.5
         }
       ]
     },
     "russia": {
-      "total_working": 707,
+      "total_working": 700,
       "top10": [
         {
+          "key": "vless://300c5895-635f-4e11-a28d-ac90df79165f@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=0b21a0552ca1&spx=%2F#[551ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 123.1
+        },
+        {
+          "key": "vless://300c5895-635f-4e11-a28d-ac90df79165f@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=st.vk.com&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=8d8ab88f16b1&spx=%2F#[517ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 123.7
+        },
+        {
+          "key": "vless://300c5895-635f-4e11-a28d-ac90df79165f@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=kinopoisk.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=88d72aaff629&spx=%2F#[542ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 123.7
+        },
+        {
+          "key": "vless://300c5895-635f-4e11-a28d-ac90df79165f@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=event.yandex.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=35ad2c4524&spx=%2F#[532ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 126.4
+        },
+        {
           "key": "vless://71758a11-c212-499b-b40e-227df80bdb7c@185.71.67.79:443?type=xhttp&security=tls&encryption=none&sni=api.kittystars.ru&host=api.kittystars.ru&mode=auto&alpn=h2%2Chttp/1.1#[397ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 140.1
+          "latency_ms": 148.3
         },
         {
-          "key": "vless://4e4f5607-087f-4ff6-907c-6b466530b455@109.205.58.79:54986?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.vk.com&pbk=r5MXUjZdwVFbi1XWgElNHWbAn5SA_XRyoENzVTDxa2U&sid=cccbaf57#[417ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 145.2
+          "key": "vless://75807638-6f19-01f4-ae08-38492ee85c88@212.41.30.206:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[344ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 167.5
         },
         {
-          "key": "vless://4e4f5607-087f-4ff6-907c-6b466530b455@spb.verymad.net:54986?type=tcp&security=reality&encryption=none&fp=chrome&pbk=r5MXUjZdwVFbi1XWgElNHWbAn5SA_XRyoENzVTDxa2U&sid=cccbaf57&sni=www.vk.com#[592ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 145.3
+          "key": "vless://75807638-6f19-01f4-ae08-38492ee85c88@212.41.30.206:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome&alpn=http/1.1#[338ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 167.6
         },
         {
-          "key": "vless://75807638-6f19-0320-ae08-38492ee85c88@178.72.162.156:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome&alpn=http/1.1#[360ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 145.4
+          "key": "vless://37691d1d-72f2-41ae-b95a-36c4d4bedf01@stage.flowwow.app:23356?type=grpc&security=reality&encryption=none&fp=edge&pbk=REbCbLiQwWzmUHZgBc-oCO0CMtwgvWURtWkFjNfcQkk&sid=4149657667076e2b&sni=icloud.com&serviceName=api#[371ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 167.6
         },
         {
-          "key": "vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.162.148:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[348ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 145.9
+          "key": "vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.162.152:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[338ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 167.7
         },
         {
-          "key": "vless://4e4f5607-087f-4ff6-907c-6b466530b455@109.205.58.79:54986?type=tcp&security=reality&encryption=none&fp=chrome&pbk=r5MXUjZdwVFbi1XWgElNHWbAn5SA_XRyoENzVTDxa2U&sid=cccbaf57&sni=www.vk.com#[351ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 146.0
-        },
-        {
-          "key": "vless://75807638-6f19-0a28-ae08-38492ee85c88@178.72.162.153:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[357ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 146.1
-        },
-        {
-          "key": "vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.162.150:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[384ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 146.3
-        },
-        {
-          "key": "vless://5042056f-1c9a-4743-a874-b9bad66ed343@46.182.24.154:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=%2Fgrpc&fp=qq&sni=static.rutube.ru&pbk=gEkBb04WCKpvyDowiwAd_6zMxYAHArFibO6KOw9FDH8&sid=1b6de111b96b9233&spx=%2F#[356ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 146.4
-        },
-        {
-          "key": "vless://75807638-6f19-0320-ae08-38492ee85c88@178.72.162.145:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&alpn=http/1.1#[360ms Россия RU 🇷🇺 @vlesstrojan]",
-          "latency_ms": 146.5
+          "key": "vless://55c1bfc2-6781-4976-81cf-364ae08a89a1@37.9.4.5:6443?encryption=none&type=grpc&security=reality&mode=multi&serviceName=grpc&sni=vkvideo.ru&pbk=CF466523CTyWo8ekZMcVPHO18gOy4ODyKSWwusJVWVI&sid=A1B2C3D4E5F6#[347ms Россия RU 🇷🇺 @vlesstrojan]",
+          "latency_ms": 167.8
         }
       ]
     }
